@@ -1,5 +1,5 @@
-
-.body{
+/* Old CODE */
+/* .body{
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -10,6 +10,102 @@
     padding: 10px 24px;
     font-family: 'Martian Mono', monospace;
     font-size: 19px;
+}
+
+a {
+    color: black;
+    font-style: unset;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #59CE9C;
+    background-color: #59CE9C
+}
+
+/* .Logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 98%;
+    padding: 1%;
+    gap: 600px;
+} */
+
+nav {
+    width: 100%;
+    
+    gap: 16;
+   
+/* }
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-menu {
+    gap: 32px;
+   display: flex;
+   justify-content: flex-end;
+    width: 90%;
+ margin-right: 100%; */
+}
+/* nav {
+ 
+    width: 100%;
+    padding: 1%;
+} */
+
+/* ul {
+   
+    width: 90%;
+ margin-right: 100%;
+
+} */ */
+
+/* Style for Navigation */
+
+.body{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+/* .inlineBlock{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 24px;
+    font-family: 'Martian Mono', monospace;
+    font-size: 19px;
+} */
+
+
+.inlineBlock{
+    display: flex;
+    flex-direction: row;
+    padding-right: 8px;
+    padding-left: 8px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Martian Mono', monospace;
+    font-size: 19px;
+   
+}
+
+.hamburger{
+    display:none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 41px;
+    height: 8px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
 }
 
 a {
@@ -52,18 +148,21 @@ nav {
     width: 90%;
  margin-right: 100%;
 }
-/* nav {
- 
-    width: 100%;
-    padding: 1%;
-} */
 
-/* ul {
-   
-    width: 90%;
- margin-right: 100%;
 
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1{
     font-family: 'Martian Mono', monospace;
