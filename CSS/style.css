@@ -1,4 +1,8 @@
 
+.body{
+    margin-left: 160px;
+    margin-right: 160px;
+}
 
 .inlineBlock{
     display: inline-block;
@@ -19,6 +23,28 @@ li:hover {
     background-color: #59CE9C
 }
 
+/* .Logo {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 98%;
+    padding: 1%;
+    gap: 600px;
+} */
+
+nav {
+    width: 100%;
+    
+    gap: 16;
+   
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .nav-menu {
     gap: 32px;
    display: flex;
@@ -26,28 +52,18 @@ li:hover {
     width: 90%;
  margin-right: 100%;
 }
-
-.Logo {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    width: 98%;
-    padding: 1%;
-    gap: 600px;
-}
-
-nav {
+/* nav {
  
     width: 100%;
     padding: 1%;
-}
+} */
 
-ul {
+/* ul {
    
     width: 90%;
  margin-right: 100%;
 
-}
+} */
 
 h1{
     font-family: 'Martian Mono', monospace;
