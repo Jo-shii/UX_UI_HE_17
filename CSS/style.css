@@ -19,6 +19,14 @@ li:hover {
     background-color: #59CE9C
 }
 
+.nav-menu {
+    gap: 32px;
+   display: flex;
+   justify-content: flex-end;
+    width: 90%;
+ margin-right: 100%;
+}
+
 .Logo {
     display: flex;
     align-items: center;
